@@ -1,0 +1,24 @@
+.widget {
+  border: 1px solid #5b7eb7;
+  border-radius: 4px;
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+}
+
+.widget__header {
+  background-color: #e6ecf8;
+  border-bottom: 1px solid #d8dee9;
+  border-radius: 4px 4px 0 0;
+  margin: 0;
+  padding: 5px;
+}
+
+.widget__content {
+  background: #fff;
+  background: -moz-linear-gradient(bottom, #e6ecf8 0%, #fff 30px, #fff 100%);
+  background: -webkit-linear-gradient(bottom, #e6ecf8 0%, #fff 30px, #fff 100%);
+  background: linear-gradient(to top, #e6ecf8 0%, #fff 30px, #fff 100%);
+  border-radius: 0 0 4px 4px;
+  padding: 5px;
+}
